@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+.game {
+  display: inline-block;
+}
+
+.score-table  {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.player-frame {
+  margin: 10% 10% 0 10%;
+  display: inline-block;
+  width: 50%
+}
+
+
+.board {
+  width: 512px;
+  height: 512px;
+  margin-left: 10%;
+  margin-top: 10%;
+  line-height: 0;
+  border: 3px solid black;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+.square {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.chess-icon {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+.white-square {
+  background-color: #e6ccb3;
+}
+
+.black-square {
+  background-color: #86592d;
+}
+
+.clicked {
+  background-color: rgb(41, 163, 41);
+  opacity: 90%;
+}
+
+.highlighted {
+  background-color: rgba(255, 255, 51, 0.6);
+}
+
+.to-capture{
+  background-color: red;
+}
+
